@@ -21,7 +21,7 @@
 
     /* Grid */
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
     justify-items: center;
     row-gap: 20px;
     
@@ -35,8 +35,11 @@
   .main .create-main h3 {
     text-align: center;
   }
-  .main .read-main {
+  .main .export-main {
     grid-row: 2/3;
+  }
+  .main .read-main {
+    grid-row: 3/4;
   }
   .main .read-main tr th {
     width: 200px;
@@ -52,11 +55,15 @@
 
 <body>
   <div class="main">
-    <form class="create-main" action="/PHPCRUDbybossROD/create.php" method="post">
+    <form class="create-main" action="/php-crud-tutorial/create.php" method="post">
       <h3>CREATE USER:</h3>
       <input type="text" name="username" placeholder="Enter username" required/>
       <input type="password" name="password" placeholder="Enter password" required/>
       <input type="submit" name="create" value="CREATE">
+    </form>
+
+    <form class="export-main" action="/php-crud-tutorial/pdf.php" method="post">
+      <input type="submit" name="exportToPdf" value="EXPORT TO PDF" />
     </form>
     
     <table class="read-main">
@@ -72,13 +79,13 @@
           <td><?php echo $results['username']; ?></td>
           <td><?php echo $results['password']; ?></td>
           <td>
-            <form action="/PHPCRUDbybossROD/update.php" method="post">
+            <form action="/php-crud-tutorial/update.php" method="post">
               <input type="submit" name="edit" value="EDIT" />
               <input type="hidden" name="editId" value="<?php echo $results['id']; ?>" />
               <input type="hidden" name="editUsername" value="<?php echo $results['username']; ?>" />
               <input type="hidden" name="editPassword" value="<?php echo $results['password']; ?>" />
             </form>
-            <form action="/PHPCRUDbybossROD/delete.php" method="post">
+            <form action="/php-crud-tutorial/delete.php" method="post">
               <input type="submit" name="delete" value="DELETE" />
               <input type="hidden" name="deleteId" value="<?php echo $results['id']; ?>"/>
             </form>

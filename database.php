@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "bossROD";
+$database = "php-crud-tutorial";
 $port = 3307;
 
 $connection = mysqli_connect($host, $user, $password, $database, $port);

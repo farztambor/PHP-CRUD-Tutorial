@@ -8,8 +8,8 @@
     $sqlDelete = mysqli_query($connection, $queryDelete);
 
     echo '<script>alert("Successfull deleted id: '.$deleteId.'!")</script>';
-    echo '<script>window.location.href = "/PHPCRUDbybossROD/index.php"</script>';
+    echo '<script>window.location.href = "/php-crud-tutorial/index.php"</script>';
   } else {
-    echo '<script>window.location.href = "/PHPCRUDbybossROD/index.php"</script>';
+    echo '<script>window.location.href = "/php-crud-tutorial/index.php"</script>';
   }
 ?>

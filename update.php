@@ -16,7 +16,7 @@
     $sqlUpdate = mysqli_query($connection, $queryUpdate);
 
     echo '<script>alert("Successfully updated!")</script>';
-    echo '<script>window.location.href = "/PHPCRUDbybossROD/index.php"</script>';
+    echo '<script>window.location.href = "/php-crud-tutorial/index.php"</script>';
   }
 ?>
 
@@ -57,7 +57,7 @@
 
 <body>
 <div class="main">
-    <form class="update-main" action="/PHPCRUDbybossROD/update.php" method="post">
+    <form class="update-main" action="/php-crud-tutorial/update.php" method="post">
       <h3>UPDATE USER:</h3>
       <input type="text" name="updateUsername" placeholder="Enter username" value="<?php echo $editUsername ?>" required/>
       <input type="password" name="updatePassword" placeholder="Enter password" value="<?php echo $editPassword ?>"required/>
