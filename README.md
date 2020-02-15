@@ -10,6 +10,11 @@ or
 
 Click `Clone or download` and `Download ZIP` to get this repo.
 
+After that you need to install packages using `composer`. Go to terminal and go to your project folder path:
+```console
+$ composer clear-cache && composer install
+```
+
 ## Follow me:
 `Personal Account`: 
 - Facebook: https://www.facebook.com/constROD
