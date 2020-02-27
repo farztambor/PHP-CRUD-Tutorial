@@ -17,12 +17,12 @@ $ composer clear-cache && composer install
 
 ## Follow me:
 `Personal Account`: 
-- Facebook: https://www.facebook.com/constROD
-- Twitter: https://www.twitter.com/constROD
-- Github: https://www.github.com/constROD
+- LinkedIn: https://linkedin.com/in/constROD
+- Twitter: https://twitter.com/constROD
+- Github: https://github.com/constROD
 
 `bossROD Account`:
-- Facebook: https://www.facebook.com/pRODgrammer21
-- Twitter: https://www.twitter.com/pRODgrammer21
+- Facebook: https://facebook.com/pRODgrammer21
+- Twitter: https://twitter.com/pRODgrammer21
 - Github: https://github.com/pRODgrammer21
-- Youtube: https://www.youtube.com/channel/UCkhKs9DE4vLE0xQd5C062Ow
+- Youtube: https://youtube.com/channel/UCkhKs9DE4vLE0xQd5C062Ow
