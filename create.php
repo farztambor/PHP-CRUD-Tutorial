@@ -8,7 +8,7 @@
     $queryCreate = "INSERT INTO accounts VALUES (null, '$username', '$password')";
     $sqlCreate = mysqli_query($connection, $queryCreate);
 
-    echo '<script>alert("Successfull created!")</script>';
+    echo '<script>alert("Successful created!")</script>';
     echo '<script>window.location.href = "/php-crud-tutorial/index.php"</script>';
   } else {
     echo '<script>window.location.href = "/php-crud-tutorial/index.php"</script>';
